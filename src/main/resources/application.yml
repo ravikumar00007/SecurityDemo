@@ -1,4 +1,5 @@
 spring:
+
   application:
     name: SecurityDemo
   datasource:
@@ -6,3 +7,7 @@ spring:
     url: jdbc:mysql://localhost:3306/jrtp
     username: root
     password: nareshit
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
